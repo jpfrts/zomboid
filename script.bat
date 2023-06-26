@@ -47,6 +47,7 @@ if exist "%repo_directory%" (
 
         echo:Os arquivos já estão atualizados.
     )
+    del output.txt
 ) else (
     echo:Arquivos do servidor não encontrados.
     echo:Baixando...   
