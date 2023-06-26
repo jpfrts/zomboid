@@ -1,0 +1,156 @@
+module Base
+
+{
+
+	recipe Make CAM69 Front Side Window
+	{
+		keep Scalpel,
+		FrontWindow3=1,
+
+		Result:69camaroFrontSideWindow3,
+		Time:200.0,
+		Category:CAM69,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make CAM69 Rear Side Window
+	{
+		keep Scalpel,
+		RearWindow3=1,
+
+		Result:69camaroRearSideWindow3,
+		Time:200.0,
+		Category:CAM69,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make CAM69 Windshield
+	{
+		keep Scalpel,
+		Windshield3=1,
+
+		Result:69camaroWindshield3,
+		Time:250.0,
+		Category:CAM69,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make CAM69 Rear Windshield
+	{
+		keep Scalpel,
+		RearWindshield3=1,
+
+		Result:69camaroWindshieldRear3,
+		Time:250.0,
+		Category:CAM69,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make CAM69 Window Armor
+	{
+		BlowTorch=6,
+       	keep WeldingMask,
+		SheetMetal=4,
+		MetalPipe=1,
+		Screws=2,
+
+		Result:69camaroWindowArmor,
+		Time:700.0,
+		Category:CAM69,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make CAM69 Windshield Armor
+	{
+		BlowTorch=10,
+      	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=3,
+		MetalPipe=4,
+		Screws=2,
+
+		Result:69camaroWindshieldArmor,
+		Time:850.0,
+		Category:CAM69,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make CAM69 Rear Windshield Armor
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+		SheetMetal=2,
+		MetalPipe=8,
+		Screws=2,
+
+		Result:69camaroWindshieldRearArmor,
+		Time:800.0,
+		Category:CAM69,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make CAM69 Front Bullbar
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+		MetalPipe=6,
+		SheetMetal=1,
+		Screws=2,
+
+		Result:69camaroFrontBumperA,
+		Time:600.0,
+		Category:CAM69,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make CAM69 Front Bullbar with Bumper
+	{
+		BlowTorch=2,
+       	keep WeldingMask,
+		69camaroFrontBumperA=1,
+		69camaroFrontBumper1=1,
+
+		Result:69camaroFrontBumperB,
+		Time:400.0,
+		Category:CAM69,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make CAM69 Rear Bullbar
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+		MetalPipe=6,
+		Screws=2,
+
+		Result:69camaroRearBumperA,
+		Time:600.0,
+		Category:CAM69,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make CAM69 Rear Bullbar with Bumper
+	{
+		BlowTorch=2,
+       	keep WeldingMask,
+		69camaroRearBumperA=1,
+		69camaroRearBumper0=1,
+
+		Result:69camaroRearBumperB,
+		Time:400.0,
+		Category:CAM69,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+}

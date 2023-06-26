@@ -1,0 +1,36 @@
+module Base
+{
+	vehicle OffRoadBurnt
+	{
+		model
+		{
+			file = Vehicles_OffRoadBurnt,
+			scale = 1.8200,
+			offset = 0.0000 0.3407 0.0000,
+		}
+
+		spawnOffsetY = 0.24999978,
+
+		skin
+		{
+			texture = Vehicles/vehicles_offroad_burnt,
+		}
+
+		extents = 0.8022 0.7143 1.7473,
+		mass = 400,
+		centerOfMassOffset = 0.0000 0.3571 0.0000,
+		physicsChassisShape = 0.8022 0.7143 1.7473,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.3846 -0.8846,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.3462 0.9286,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

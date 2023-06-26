@@ -1,0 +1,18 @@
+Sandbox_EN = {
+	Sandbox_RC = "RC Explosives",
+
+	Sandbox_RC_MyArtIsAnExplosion = "My Art - Is An Explosion!",
+	Sandbox_RC_MyArtIsAnExplosion_tooltip = "Setting this true will produce burned cars to explode as well. Default is unrealistic",
+
+	Sandbox_RC_ExplosiveBaseDamage = "RC Explosives Base Damage",
+	Sandbox_RC_ExplosiveBaseDamage_tooltip = "Base damage your RC Explosives scales from. Setting it more than default (350) could cause an instant death of healthy player",
+
+	Sandbox_RC_Flyability = "Zed Flyability",
+	Sandbox_RC_Flyability_tooltip = "Setting this to True (default: True) will try to do its best to make zombies fly out of the explosion (this options is NOT reccomended for users with slow CPU or for the server owners where users could have slow CPUs)",
+
+	Sandbox_RC_SafeHouseSafeness = "SafeHouses Safeness",
+	Sandbox_RC_SafeHouseSafeness_tooltip = "Nothing could prevent this from happening, or..",
+
+    Sandbox_RC_SafeHouseSafeness_option1 = "I See You",
+    Sandbox_RC_SafeHouseSafeness_option2 = "Bunker Mode",
+}

@@ -1,0 +1,126 @@
+module Base
+{
+	vehicle AmbulanceBurnt
+	{
+		model
+		{
+			file = Vehicles_AmbulanceCrashedBurnt,
+			scale = 1.8200,
+			offset = 0.0000 0.0000 0.0000,
+		}
+
+		spawnOffsetY = 0.7999999,
+
+		skin
+		{
+			texture = Vehicles/vehicle_vanambulancecrashedshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_ambulancebloodycrashedshell,
+		}
+
+		extents = 0.9011 1.0769 2.1758,
+		mass = 500,
+		centerOfMassoffset = 0 0.0 0,
+		physicsChassisShape = 0.9011 1.0879 2.1758,
+
+		area TruckBed
+		{
+			xywh = 0.0000 -1.3791 0.8132 0.4725,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.6813 0.5330 0.4725 0.4725,
+		}
+
+		part DoorFrontRight
+		{
+			area = SeatFrontRight,
+			itemType = Base.FrontCarDoor,
+			category = door,
+
+			door
+			{
+			}
+
+			mechanicRequireKey = false,
+
+			lua
+			{
+				use = Vehicles.Use.Door,
+			}
+		}
+
+		part GloveBox
+		{
+			area = SeatFrontRight,
+			itemType = Base.GloveBox,
+			mechanicRequireKey = true,
+
+			container
+			{
+				test = Vehicles.ContainerAccess.WreckGloveBox,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.WreckGloveBox,
+			}
+		}
+
+		part TrunkDoor
+		{
+			category = bodywork,
+			area = TruckBed,
+
+			door
+			{
+			}
+
+			itemType = Base.TrunkDoor,
+			mechanicRequireKey = false,
+
+			lua
+			{
+				use = Vehicles.Use.TrunkDoor,
+			}
+		}
+
+		part TruckBed
+		{
+			area = TruckBed,
+			category = bodywork,
+			itemType = Base.BigTrunk,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+
+			container
+			{
+				conditionAffectsCapacity = true,
+				test = Vehicles.ContainerAccess.TruckBed,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		centerOfMassOffset = 0.0000 0.0000 0.0000,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.3187 -1.2033,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.3132 1.1209,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

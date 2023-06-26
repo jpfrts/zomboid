@@ -1,0 +1,141 @@
+module Base
+{
+	vehicle SUV2CrashedBurnt
+	{
+		model
+		{
+			file = Vehicles_SUV2CrashedBurnt,
+			scale = 1.8200,
+			offset = 0.0000 0.0000 0.0000,
+		}
+
+		spawnOffsetY = 0.24999978,
+
+		skin
+		{
+			texture = Vehicles/vehicle_suvcrashedburntshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suvredcrashedburntshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suvblackcrashedburntshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suvgreencrashedburntshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suvbluecrashedburntshell,
+		}
+
+		extents = 0.8132 0.8242 2.0659,
+		mass = 500,
+		centerOfMassoffset = 0 0.0 0,
+		physicsChassisShape = 0.8022 0.8022 2.0440,
+
+		area TruckBed
+		{
+			xywh = 0.0000 -1.1978 0.8132 0.4725,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.6374 0.1209 0.4725 0.4725,
+		}
+
+		part DoorFrontRight
+		{
+			area = SeatFrontRight,
+			itemType = Base.FrontCarDoor,
+			category = door,
+
+			door
+			{
+			}
+
+			mechanicRequireKey = false,
+
+			lua
+			{
+				use = Vehicles.Use.Door,
+			}
+		}
+
+		part GloveBox
+		{
+			area = SeatFrontRight,
+			itemType = Base.GloveBox,
+			mechanicRequireKey = true,
+
+			container
+			{
+				test = Vehicles.ContainerAccess.WreckGloveBox,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.WreckGloveBox,
+			}
+		}
+
+		part TrunkDoor
+		{
+			category = bodywork,
+			area = TruckBed,
+
+			door
+			{
+			}
+
+			itemType = Base.TrunkDoor,
+			mechanicRequireKey = false,
+
+			lua
+			{
+				use = Vehicles.Use.TrunkDoor,
+			}
+		}
+
+		part TruckBed
+		{
+			area = TruckBed,
+			category = bodywork,
+			itemType = Base.NormalTrunk,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+
+			container
+			{
+				conditionAffectsCapacity = true,
+				test = Vehicles.ContainerAccess.TruckBed,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		centerOfMassOffset = 0.0000 0.0000 0.0000,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.3077 -1.0440,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.3297 0.9176,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

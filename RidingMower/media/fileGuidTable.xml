@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/Boilersuit_CheeseRacing.xml</path>
+		<guid>e50eff45-3f4d-459e-a8fb-69b260084183</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_CheeseHelmet.xml</path>
+		<guid>196f3431-ac1a-4a17-adc5-4f1d7b929a45</guid>
+	</files>
+</fileGuidTable>

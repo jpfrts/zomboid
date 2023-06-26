@@ -1,0 +1,9 @@
+IGUI_JP = {
+    IGUI_Pry_fail = "諦めません。もう一度やり直します...",
+	IGUI_Settings_Prying_Mechanic = "クローバーの力学",
+    IGUI_Settings_Tooltip_Prying_Mechanic = "プレイヤーがバールを使用してドアや窓などを開けることができるかどうかを切り替えます。 ",
+	IGUI_Settings_Part_Condition_Highlighter = "部品状態ハイライト",
+    IGUI_Settings_Tooltip_Part_Condition_Highlighter = "車のダッシュボードにバッテリーとエンジンのアイコンを、状態に応じてさまざまな色で表示します。 "
+    IGUI_Settings_Color_Filter = "カラーフィルター",
+    IGUI_Settings_Tooltip_Colorblind_Mode = "色覚異常のある人に優しい色を切り替えます。 ",
+}

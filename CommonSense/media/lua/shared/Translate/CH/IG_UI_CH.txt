@@ -1,0 +1,9 @@
+IGUI_CH = {
+    IGUI_Pry_fail = "它不会屈服。我可以再试一次...",
+    IGUI_Settings_Prying_Mechanic = "撬棍机制",
+    IGUI_Settings_Tooltip_Prying_Mechanic = "切换玩家是否可以使用撬棍打开门、窗等。",
+	IGUI_Settings_Part_Condition_Highlighter = "零件状态荧光笔",
+    IGUI_Settings_Tooltip_Part_Condition_Highlighter = "根据其状况，以各种颜色在车辆仪表板中显示电池和引擎图标。"
+    IGUI_Settings_Color_Filter = "彩色滤镜",
+    IGUI_Settings_Tooltip_Colorblind_Mode = "为受色盲影响的人切换友好颜色。",
+}

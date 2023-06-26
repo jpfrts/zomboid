@@ -1,0 +1,29 @@
+module Base
+{
+	model MowerBlade
+	{
+		mesh = weapons/1handed/MowerBlade,
+                texture = weapons/1handed/MowerBlade,
+
+                attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 90.0000 90.0000,
+		}
+
+	}
+
+	model MowerBladeWeapon
+	{
+		mesh = weapons/1handed/MowerBladeWeapon,
+                texture = weapons/1handed/MowerBladeWeapon,
+
+                attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 90.0000 90.0000,
+		}
+
+	}
+
+}

@@ -1,0 +1,9 @@
+IGUI_FR = {
+    IGUI_Pry_fail = "Il ne cédera pas. Je peux réessayer...",
+	IGUI_Settings_Prying_Mechanic = "Mécanique du Pied-de-biche",
+    IGUI_Settings_Tooltip_Prying_Mechanic = "Indique si les joueurs peuvent ouvrir des portes, des fenêtres, etc. à l'aide d'un pied-de-biche. ",
+	IGUI_Settings_Part_Condition_Highlighter = "Surligneur de l'état des pièces",
+    IGUI_Settings_Tooltip_Part_Condition_Highlighter = "Affiche l'icône de la batterie et du moteur dans les tableaux de bord des véhicules dans différentes couleurs en fonction de leur état. "
+    IGUI_Settings_Color_Filter = "Filtre de couleur",
+    IGUI_Settings_Tooltip_Colorblind_Mode = "Bascule les couleurs amicales pour les personnes affectées par le daltonisme. ",
+}

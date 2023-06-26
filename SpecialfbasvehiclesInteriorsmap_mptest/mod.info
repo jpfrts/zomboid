@@ -1,0 +1,8 @@
+name=Special Emergency Vehicles & FBI RV interiors Patch (SP&MP) USE THIS with RV_INTERIORS 1.3
+poster=poster.png
+id=SpecialfbasvehiclesInteriorsmap_12
+description=This adds unique interiors to the Hazard mat bounder, the fbi/police Econoliner RV and Bomb squad F700 truck.
+description= MAKE SURE TO LOAD REQUIRED MODS AND FOLLOW RV_INTERIOR MOD PAGE INSTRUCTIONS!.
+require=RV_Interior_MP,SpecialEmergencyVehiclesFRsm,FRUsedCars
+pack=SpecialfbasvehiclesInteriorsmaptiles
+tiledef=SpecialfbasvehiclesInteriorsmap 948

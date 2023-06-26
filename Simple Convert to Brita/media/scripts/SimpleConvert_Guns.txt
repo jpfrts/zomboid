@@ -1,0 +1,245 @@
+module Base
+{
+	recipe Convert to Beretta M9
+		{
+			Pistol,
+			
+			Result:Base.M9,
+			Time:10.0,
+			Category:Firearms,
+		}
+
+	recipe Convert to Colt 1911
+		{
+			Pistol2,
+			
+			Result:Base.Colt1911,
+			Time:10.0,
+			Category:Firearms,
+		}
+
+	recipe Convert to IMI Desert Eagle
+		{
+			Pistol3,
+			
+			Result:Base.DEagle,
+			Time:10.0,
+			Category:Firearms,
+		}
+
+	recipe Convert to Taurus 856
+		{
+			Revolver_Short,
+			
+			Result:Base.Taurus856,
+			Time:10.0,
+			Category:Firearms,
+		}
+
+	recipe Convert to Colt Service 45
+		{
+			Revolver,
+			
+			Result:Base.Colt_Service45,
+			Time:10.0,
+			Category:Firearms,
+		}
+
+	recipe Convert to S&W Model 29
+		{
+			Revolver_Long,
+			
+			Result:Base.M29_44,
+			Time:10.0,
+			Category:Firearms,
+		}
+
+	recipe Convert to M16
+		{
+			AssaultRifle,
+			
+			Result:Base.ColtM16,
+			Time:10.0,
+			Category:Firearms,
+		}
+
+	recipe Convert to M14
+		{
+			AssaultRifle2,
+			
+			Result:Base.M14,
+			Time:10.0,
+			Category:Firearms,
+		}
+
+	recipe Convert to Colt Winchester 1894
+		{
+			VarmintRifle,
+			
+			Result:Base.Win_1894,
+			Time:10.0,
+			Category:Firearms,
+		}
+
+	recipe Convert to M40
+		{
+			HuntingRifle,
+			
+			Result:Base.M40,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	/*Velxra's Bequest
+	recipe Convert to Winchester Model 1897
+		{
+			Shotgun,
+			
+			Result:Base.M1897,
+			Time:10.0,
+			Category:Firearms,
+		}
+
+	recipe Convert M14 Mag
+		{
+			M14Clip,
+			
+			Result:Base.308ExtClip,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	recipe Convert 2X Sight to Aimpoint Sight
+		{
+			x2Scope,
+			
+			Result:Base.Sight_Aimpoint,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	recipe Convert 4X Scope to M223 Scope
+		{
+			x4Scope,
+			
+			Result:Base.Scope_1-4x,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	recipe Convert 8X Scope to M8 Scope
+		{
+			x8Scope,
+			
+			Result:Base.Sight_M8,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	recipe Convert Ammo Straps to Ammo Belt
+		{
+			AmmoStraps,
+			
+			Result:Base.Ammobelt,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	recipe Convert Sling to 1-Point Sling
+		{
+			Sling,
+			
+			Result:Base.Sling_1,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	recipe Convert Recoil Pad to Rifle Butt Pad
+		{
+			RecoilPad,
+			
+			Result:Base.Pad,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	recipe Convert Laser to Red Laser Sight
+		{
+			Laser,
+			
+			Result:Base.Laser_Red,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	recipe Convert Red Dot Sight to RMR-2 Sight
+		{
+			RedDot,
+			
+			Result:Base.Sight_MicroDot,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	recipe Convert Gun Light to Small Weapon Light
+		{
+			GunLight,
+			
+			Result:Base.Light_Small,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	recipe Convert Bayonet to M1917 Bayonet
+		{
+			Bayonnet,
+			
+			Result:Base.Bayonet_M1917,
+			Time:10.0,
+			Category:Firearms,
+		}
+		
+	recipe Convert Choke Tube Full to Choke Full
+		{
+			ChokeTubeFull,
+			
+			Result:Base.Choke_Full,
+			Time:10.0,
+			Category:Firearms,
+		}
+}
+
+/*				REFERENCE ONLY						*/
+/* Note: Vanilla Shotguns are integrated into Brita */
+/* Note 2: The vanila fiberglass stock and improved choke tube have no direct equivalent in Brita.
+
+/*	vanilla item		Brita item				*/
+
+/*	Pistol				"Base.M9",				*/
+/*	Pistol2				"Base.Colt1911",		*/
+/*	Pistol3				"Base.DEagle",			*/
+/*	Revolver_Short		"Base.Colt_Service38",	*/
+/*	Revolver			"Base.Colt_Service45",	*/
+/*	Revolver_Long		"Base.M29_44,			*/
+
+/*	AssaultRifle		"Base.M16A2",			*/
+/*	AssaultRifle2		"Base.M14",				*/
+
+/*	VarmintRifle		"Base.Win_1894",		*/
+/*	HuntingRifle		"Base.M40",				*/
+
+/*	M14Clip				"Base.308ExtClip",		*/
+
+/*	x2Scope				"Base.Sight_Aimpoint",	*/
+/*	x4Scope				"Base.Scope_1-4x",		*/
+/*	x8Scope				"Base.Sight_M8",		*/
+/*	AmmoStraps			"Base.Ammobelt",		*/
+/*	Sling				"Base.Sling_1",			*/
+/*	FiberglassStock		"Base.(n/a)",			*/
+/*	RecoilPad			"Base.Pad",				*/
+/*	Laser				"Base.Laser_Red",		*/
+/*	RedDot				"Base.Sight_MicroDot",	*/
+/*	GunLight			"Base.Light_Small",		*/
+/*	Bayonnet			"Base.Bayonet_M1917",	*/
+/*	ChokeTubeFull		"Base.Choke_Full",		*/
+/*	ChokeTubeImproved	"Base.(n/a)",			*/

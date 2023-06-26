@@ -1,0 +1,52 @@
+module Base
+{  
+    sound mower_start
+    {
+        category = Vehicle,
+        loop = false,
+        clip
+        {
+            file = media/sound/Mower/MowerStart.ogg,
+        }
+    }
+	
+    sound mower_stop
+    {
+        category = Vehicle,
+        loop = false,
+        clip
+        {
+            file = media/sound/Mower/MowerStop.ogg,
+        }
+    }	
+	
+    sound mower_idle
+    {
+        category = Vehicle,
+        loop = true,
+        clip
+        {
+            file = media/sound/Mower/Moweridle.ogg,
+        }
+    }
+	
+    sound mower_fail
+    {
+        category = Vehicle,
+        loop = false,
+        clip
+        {
+            file = media/sound/Mower/Mowerfail.ogg,
+        }
+    }	
+    
+    sound mower_fatality
+    {
+        category = Vehicle,
+        loop = false,
+        clip
+        {
+            file = media/sound/Mower/MowerFatality.ogg,
+        }
+    }
+}

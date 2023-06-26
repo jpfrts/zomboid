@@ -1,0 +1,44 @@
+VERSION = 1,
+
+mods
+{
+	mod = ModManager,
+	mod = modoptions,
+	mod = SuperbSurvivors,
+	mod = ChangeSandBox,
+	mod = RV_Interior_MP,
+	mod = RidingMower,
+	mod = MinimalDisplayBars,
+	mod = CrashedCarsMod,
+	mod = TheStar,
+	mod = BB_CommonSense,
+	mod = Brita,
+	mod = Brita_2,
+	mod = autotsartrailers,
+	mod = tsarslib,
+	mod = ATA_Bus,
+	mod = TrueActionsDancing,
+	mod = TMC_TrueActions,
+	mod = TMC_Trolley,
+	mod = FRUsedCarsNLF,
+	mod = FBBRIOTGEAR,
+	mod = EasyConfigChucked,
+	mod = BetterSortCC,
+	mod = FRUsedCars,
+	mod = FRUsedCarsFT,
+	mod = GeneratorTimeRemaining,
+	mod = OutTheWindow,
+	mod = ReducedPlank,
+	mod = SpecialEmergencyVehiclesFRsm,
+	mod = SpecialfbasvehiclesInteriorsmap_12,
+	mod = AnimSync,
+	mod = SwapIt,
+	mod = filisbustertrucksliveriesas24,
+	mod = The Sims Zomboid,
+	mod = bcUtils,
+	mod = spraypaintEDIT,
+}
+
+maps
+{
+}

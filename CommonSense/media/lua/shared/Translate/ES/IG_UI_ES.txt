@@ -1,0 +1,9 @@
+IGUI_ES = {
+    IGUI_Pry_fail = "No cederá. Puedo intentarlo de nuevo... ",
+    IGUI_Settings_Prying_Mechanic = "Mecánica de Palanca",
+    IGUI_Settings_Tooltip_Prying_Mechanic = "Alterna si los jugadores pueden forzar las puertas, ventanas, etc. uitilizando una palanca",
+	IGUI_Settings_Part_Condition_Highlighter = "Resaltador del estado de las piezas ",
+    IGUI_Settings_Tooltip_Part_Condition_Highlighter = "Muestra el ícono de la batería y el motor en los tableros del vehículo en varios colores según su condición. "
+    IGUI_Settings_Color_Filter = "Filtro de color ",
+    IGUI_Settings_Tooltip_Colorblind_Mode = "Alterna colores amigables para aquellos afectados por el daltonismo. ",
+}

@@ -1,0 +1,7 @@
+name=ZuperCart v.1.10
+poster=poster.png
+id=TMC_Trolley
+versionMin=41.73
+require=tsarslib
+description=Carts&Trolleys for best life.
+url=

@@ -1,0 +1,32 @@
+Sandbox_EN = {
+    -- Fix
+
+    -- New
+    Sandbox_ServerTweaker = "Server Tweaker",
+    Sandbox_SaveClientOptions = "Save client options",
+    Sandbox_SaveAdminPower = "Save admin powers",
+    Sandbox_AddClientCache = "Add client cache",
+    Sandbox_AllowAdminToolsForGM = "Allow admin tools for GM",
+    Sandbox_DisallowSpawnItemsForObservers = "Disallow spawn items for Observers",
+    Sandbox_DisableAimOutline = "Disable AimOutline (NOT RECOMMENDED)",
+    Sandbox_DisableTradeWithPlayers = "Disable trade with players",
+    Sandbox_ProtectVehicleInSafehouse = "Protect vehicle in safehouse",
+    Sandbox_ScreenBlackoutOnDeath = "Screen blackout on death",
+    Sandbox_HighlightSafehouse = "Highlight safehouse (client cache required)",
+    Sandbox_TweakFirearmsSoundRadius = "Increase SoundRadius to firearms",
+    Sandbox_SetGeneralChatStreamAsDefault = "Set General chat stream as default",
+    Sandbox_DisplayCharacterCoordinates = "Display character coordinates",
+    Sandbox_AddSatelliteViewToMap = "Add satellite view to map",
+    Sandbox_DisplaySafehouseAreaSize = "Display safehouse area size",
+    Sandbox_CustomSafezoneAdminTweaks = "Custom Safezone admin tweaks",
+    Sandbox_TweakOverlayText = "Tweak overlay text in right bottom corner",
+    Sandbox_PinOverlayServerInfoText = "Pin overlay server info text",
+    Sandbox_HideServerOptionsFromPlayers = "Hide server options from players",
+    Sandbox_HideTicketsFromPlayers = "Hide tickets from players",
+    Sandbox_AddSafehouseToSpawnLocations = "Add Safehouse to spawn locations",
+    Sandbox_AdminsFreeAddToSafehouse = "No limits for GM to add players to Safehouse",
+    Sandbox_TakeSafehouseLimitations = "Take Safehouse limitations",
+    Sandbox_SafehouseAreaLimit = "Safehouse area limit",
+    Sandbox_CheckSafehouseIntersections = "Check Safehouse intersections",
+    Sandbox_SafehouseDeadZone = "Safehouse dead zone",
+}

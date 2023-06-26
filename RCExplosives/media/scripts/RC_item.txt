@@ -1,0 +1,384 @@
+module Base
+{
+	imports
+	{
+		Base
+	}
+	
+	item RCExplosiveC4
+	{
+		Weight 			= 0.5,
+		Type			= Weapon,
+		WeaponSprite 		= None,
+		DisplayCategory 	= RCExplosive,
+		DisplayName 		= Explosive C4,
+		icon			= RCExplosiveC4,
+		CanBeRemote 		= TRUE,
+		WorldStaticModel 	= RemoteController,
+	}
+
+	item RCExplosiveBox
+	{
+		Weight 			= 3,
+		Type			= Moveable,
+		DisplayCategory 	= RCExplosive,
+		DisplayName 		= Explosive Box,
+		icon			= RCExplosiveBox,
+		WorldObjectSprite 	= RC_ExplosiveChest_0,
+	}
+
+	item RCDynamite
+	{
+		Weight 			= 0.2,
+		MaxRange		= 15,
+		Type			= Weapon,
+		DisplayCategory 	= RCExplosive,
+		DisplayName 		= Dynamite Charge,
+		OtherHandUse		= TRUE,
+		OtherHandRequire	= Lighter,
+		MinimumSwingTime	= 1.5,
+		SwingAnim		= Throw,
+		WeaponSprite 		= RCSpriteDynamite,
+		UseSelf			= TRUE,
+		icon			= RCDynamite,
+		SwingTime		= 3,
+		SwingAmountBeforeImpact	= 0.1,
+		PhysicsObject		= PipeBomb,
+		MinDamage		= 100,
+		MaxDamage		= 170,
+		ExtraDamage             = 160,	
+		MaxHitCount		= 0,
+		ExplosionPower  	= 240,
+		ExplosionRange  	= 5,
+		ExplosionSound 		= PipeBombExplode,
+		KnockdownMod            = 20,
+		SwingSound 		= PipeBombThrow,
+		WorldStaticModel 	= RCSpriteDynamite
+	}
+
+	sound RCExplosionSoundC4
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/c4_explosion.ogg,
+			distanceMax = 100,
+			volume = 1,
+		}
+	}
+
+	item RCFX_ExplosionC4
+	{
+        	DisplayCategory 	= LightSource,
+		LightDistance		= 50,
+		TorchCone		= FALSE,
+		LightStrength		= 10.0,
+
+
+        	Weight	=	0.1,
+        	Type	=	Normal,
+        	DisplayName	=	RCFX_ExplosionC4,
+        	Icon	=	c4explosionFX0,
+	}
+
+	item RC_C4Virtual
+	{
+		DisplayName 		= 	Explosive C4,
+        	Type			=	Weapon,
+		KnockBackOnNoDeath	=	TRUE,
+		Categories		=	Axe,
+		PushBackMod		=	5,
+		SubCategory		=	Swinging,
+		MaxHitCount		=	1,
+		KnockdownMod		=	2,
+		HitSound 		= 	AxeHit,
+		HitFloorSound 		= 	AxeHit,
+		CriticalChance		=	0,
+        	CritDmgMultiplier 	= 	1,
+		MinDamage		=	1,
+		MaxDamage		=	1,
+		DamageCategory 		= 	Slash,
+		DamageMakeHole 		= 	TRUE,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon			=	c4explosionFX0
+	}
+
+	sound RCC4ActivationProcess
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/c4_activation_process.ogg,
+			distanceMax = 80,
+			volume = 1,
+		}
+	}
+
+	sound RCC4PlantingMale
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/c4_planting_male.ogg,
+			distanceMax = 100,
+			volume = 1,
+		}
+	}
+
+	sound RCC4PlantingFemale
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/c4_planting_female.ogg,
+			distanceMax = 100,
+			volume = 1,
+		}
+	}
+
+
+	sound RCExplosionSoundBoxSmall
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/box_explosion_small.ogg,
+			distanceMax = 80,
+			volume = 1,
+		}
+	}
+
+	sound RCExplosionSoundBoxMedium
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/box_explosion_medium.ogg,
+			distanceMax = 110,
+			volume = 1,
+		}
+	}
+
+	sound RCExplosionSoundBoxLarge
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/box_explosion_large.ogg,
+			distanceMax = 140,
+			volume = 1,
+		}
+	}
+
+	sound RCExplosionSoundBoxInsane
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/box_explosion_insane.ogg,
+			distanceMax = 180,
+			volume = 1,
+		}
+	}
+
+	sound RCExplosionSoundCarSmall
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/explosion_car_small.ogg,
+			distanceMax = 120,
+			volume = 1,
+		}
+	}
+
+	sound RCExplosionSoundCarMedium
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/explosion_car_medium.ogg,
+			distanceMax = 120,
+			volume = 1,
+		}
+	}
+
+	sound RCExplosionSoundCarLarge
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/explosion_car_large.ogg,
+			distanceMax = 120,
+			volume = 1,
+		}
+	}
+
+	sound RCExplosionSoundCarSpecial
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/explosion_car_special.ogg,
+			distanceMax = 120,
+			volume = 1,
+		}
+	}
+
+	sound RCExplosionSoundMetalSmall
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/explosion_metal_small.ogg,
+			distanceMax = 120,
+			volume = 1,
+		}
+	}
+
+
+	sound RCExplosionSoundMetalMedium
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/explosion_metal_medium.ogg,
+			distanceMax = 120,
+			volume = 1,
+		}
+	}
+
+	sound RCExplosionSoundMetalLarge
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/explosion_metal_large.ogg,
+			distanceMax = 120,
+			volume = 1,
+		}
+	}
+
+	sound RCExplosionSoundFlesh01
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/explosion_flesh_01.ogg,
+			distanceMax = 70,
+			volume = 0.5,
+		}
+	}
+
+	sound RCExplosionSoundFlesh02
+	{
+		category = Object,
+		loop = false,
+		is3D = true,
+		clip
+		{
+			file = media/sound/explosion_flesh_02.ogg,
+			distanceMax = 70,
+			volume = 0.5,
+		}
+	}
+
+	item RCExplosiveMagazine
+	{
+        	DisplayCategory = SkillBook,
+        	Weight	=	0.1,
+        	Type	=	Literature,
+        	DisplayName	= Explosives NOT for dummies,
+        	Icon	=	RCExplosiveMagazine,
+        	TeachedRecipes  =   Make RC Explosive C4;Make RC Explosive Box;Make Dynamite Charge,
+        	ReplaceOnUse    =   RCExplosiveMagazine,
+        	StaticModel 	=   Magazine,
+        	WorldStaticModel = MagazineEngi1Ground,
+	}
+
+	recipe  Make RC Explosive Box
+    	{
+       		Plank=4,
+       		Nails=4,
+		TriggerCrafted,
+		Sound:Hammering,
+       		keep [Recipe.GetItemTypes.Hammer],
+		
+       		Result:RCExplosiveBox,
+       		Time:1000.0,
+       		NeedToBeLearn:true,
+       		Category:Engineer,
+    	}
+	
+	recipe Make Dynamite Charge
+    	{
+       		GunPowder=50,
+		RippedSheets/RippedSheetsDirty/Twine=1,
+		ToiletPaper=20,
+       		DuctTape=1,
+		HottieZ/Book/Newspaper/Journal/Doodle/Magazine/Notebook/Map/LouisvilleMap1/LouisvilleMap2/LouisvilleMap3/LouisvilleMap4/LouisvilleMap5/LouisvilleMap6/LouisvilleMap7/LouisvilleMap8/LouisvilleMap9/MarchRidgeMap/RiversideMap/RosewoodMap/WestpointMap/MuldraughMap,
+
+       		Sound:FixWithTape,
+		Result:RCDynamite,
+       		Time:250.0,
+       		NeedToBeLearn:true,
+       		Category:Engineer,
+    	}
+
+	recipe Make RC Explosive C4
+    	{
+		GunPowder=25,
+		Water=1,
+		[Recipe.GetItemTypes.Flour]=2,
+       		ElectronicsScrap=3,
+		TriggerCrafted,
+		DuctTape=2,
+		Sound:MakePlaster,
+       		keep [Recipe.GetItemTypes.Screwdriver],
+		keep Pot,
+
+       		Result:RCExplosiveC4,
+       		Time:500.0,
+       		NeedToBeLearn:true,
+       		Category:Engineer,
+    	}
+
+	model RCSpriteDynamite
+    	{
+		mesh = weapons/1handed/dinamite,
+		texture = weapons/1handed/texture_dinamite,
+		scale = 1.2,
+	}
+}

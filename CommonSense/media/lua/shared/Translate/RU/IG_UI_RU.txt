@@ -1,0 +1,9 @@
+IGUI_RU = {
+    IGUI_Pry_fail = "Не получается. Я должен попробовать ещё...",
+	IGUI_Settings_Prying_Mechanic = "Лом Механика",
+    IGUI_Settings_Tooltip_Prying_Mechanic = "Переключает, могут ли игроки открывать двери, окна и т. д. с помощью лома. ",
+	IGUI_Settings_Part_Condition_Highlighter = "Подсветка состояния детали ",
+    IGUI_Settings_Tooltip_Part_Condition_Highlighter = "Отображает значок аккумулятора и двигателя на приборных панелях автомобиля разными цветами в зависимости от их состояния. "
+    IGUI_Settings_Color_Filter = "Цветовой фильтр ",
+    IGUI_Settings_Tooltip_Colorblind_Mode = "Переключает дружественные цвета для тех, кто страдает дальтонизмом. ",
+}

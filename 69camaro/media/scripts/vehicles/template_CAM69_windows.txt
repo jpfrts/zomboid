@@ -1,0 +1,196 @@
+module Base
+{
+
+	model 69camarowindowfl
+	{
+		mesh = vehicles/Vehicles_69camaro_Body|69camaro_window_fl,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+		boneWeight = window_fl_bone 1.0,
+	}
+
+	model 69camarowindowfr
+	{
+		mesh = vehicles/Vehicles_69camaro_Body|69camaro_window_fr,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+		boneWeight = window_fr_bone 1.0,
+	}
+
+	model 69camarowindowrl
+	{
+		mesh = vehicles/Vehicles_69camaro_Body|69camaro_window_rl,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+	}
+
+	model 69camarowindowrr
+	{
+		mesh = vehicles/Vehicles_69camaro_Body|69camaro_window_rr,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+	}
+
+	template vehicle CAM69Windows
+	{
+		part WindowFrontLeft
+		{
+			model windowFL
+			{
+				file = 69camarowindowfl,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_fl_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorFrontLeft,
+			area = SeatFrontLeft,
+			itemType = Base.69camaroFrontSideWindow,
+			table install
+			{
+				requireInstalled = DoorFrontLeft,
+			}
+			table uninstall
+				{
+				requireUninstalled = CAM69WindowLeftArmor,
+				}
+		}
+
+		part WindowFrontRight
+		{
+			model windowFR
+			{
+				file = 69camarowindowfr,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_fr_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorFrontRight,
+			area = SeatFrontRight,
+			itemType = Base.69camaroFrontSideWindow,
+			table install
+			{
+				requireInstalled = DoorFrontRight,
+			}
+			table uninstall
+				{
+				requireUninstalled = CAM69WindowRightArmor,
+				}
+		}
+
+		part WindowRearLeft
+		{
+			model windowRL
+			{
+				file = 69camarowindowrl,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_rl_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorRearLeft,
+			area = SeatRearLeft,
+			itemType = Base.69camaroRearSideWindow,
+			table install
+			{
+				requireInstalled = ,
+			}
+			table uninstall
+				{
+				requireUninstalled = CAM69WindowLeftArmor,
+				}
+		}
+
+		part WindowRearRight
+		{
+			model windowRR
+			{
+				file = 69camarowindowrr,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_rr_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorRearRight,
+			area = SeatRearRight,
+			itemType = Base.69camaroRearSideWindow,
+			table install
+			{
+				requireInstalled = ,
+			}
+			table uninstall
+				{
+				requireUninstalled = CAM69WindowRightArmor,
+				}
+		}
+
+		part Window*
+		{
+			category = door,
+			mechanicRequireKey = true,
+			window
+			{
+				openable = true,
+			}
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:3,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Window,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:3,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+			}
+			lua
+			{
+				create = Vehicles.Create.Window,
+				init = Vehicles.Init.Window,
+			}
+		}
+	}
+}
+

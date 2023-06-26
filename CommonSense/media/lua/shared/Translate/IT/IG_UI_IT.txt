@@ -1,0 +1,9 @@
+IGUI_IT = {
+	IGUI_Pry_fail = "Non vuole cedere. Potrei provare di nuovo...",
+	IGUI_Settings_Prying_Mechanic = "Meccanica Piede di porco",
+	IGUI_Settings_Tooltip_Prying_Mechanic = "Consente ai giocatori di aprire porte, finestre, ecc. con un piede di porco. ",
+	IGUI_Settings_Part_Condition_Highlighter = "Evidenziatore delle condizioni delle parti",
+    IGUI_Settings_Tooltip_Part_Condition_Highlighter = "Visualizza l'icona per Batteria e Motore nei cruscotti dei veicoli in vari colori a seconda delle loro condizioni. "
+    IGUI_Settings_Color_Filter = "Filtro colore",
+    IGUI_Settings_Tooltip_Colorblind_Mode = "Attiva/disattiva i colori amichevoli per le persone affette dal daltonismo. ",
+}

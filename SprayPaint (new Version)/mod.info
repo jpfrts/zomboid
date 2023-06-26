@@ -1,0 +1,11 @@
+name=Spray Paint Mod (new version)
+poster=poster.png
+description=Mark your path of looting with spray cans.
+id=spraypaintEDIT
+pack=tz_spraypaint
+pack=tz_spraypaint_Icons
+require=bcUtils
+
+modversion=0.8
+pzversion=41
+versionurl=https://raw.githubusercontent.com/Thuztor/SprayPaint/master/mod.info

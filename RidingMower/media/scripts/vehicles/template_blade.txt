@@ -1,0 +1,68 @@
+module Base
+{
+	template vehicle Blade
+	{
+
+		part MowerBlade
+		{
+			area = SeatFrontLeft,
+			itemType = Base.MowerBladeBlunt,
+			category = Cutting,
+			mechanicRequireKey = false,
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Jack,
+						count = 1,
+						keep = true,
+					}
+					2
+					{
+						type = Base.Wrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = Vehicles.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Blade,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Jack,
+						count = 1,
+						keep = true,
+					}
+					2
+					{
+						type = Base.Wrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Blade,
+			}
+			lua
+			{
+				create = Vehicles.Create.Blade,
+				init = Vehicles.Init.Blade,
+			}
+		}
+	}
+}
+

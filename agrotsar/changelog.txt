@@ -1,0 +1,12 @@
+v.1.01
+2023-03-25
+
+Изменена логина определения AGROzones, для ускорения запуска сервера.
+Исправлена ошибка из-за которой нельзя было на трактор установить задние окна.
+
+Changed the login definition AGROzones, to speed up the launch of the server.
+Fixed a bug that made it impossible to install rear windows on the tractor.
+
+-------------------
+
+v.1.0

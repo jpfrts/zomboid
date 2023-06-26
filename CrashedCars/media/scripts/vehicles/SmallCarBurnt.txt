@@ -1,0 +1,38 @@
+module Base
+{
+	vehicle SmallCarBurnt
+	{
+		model
+		{
+			file = Vehicles_SmallCar_Burnt,
+			scale = 1.8200,
+			offset = 0.0000 0.3022 0.0000,
+		}
+
+		spawnOffsetY = -0.10000008,
+
+		skin
+		{
+			texture = Vehicles/vehicles_smallcar_burnt,
+		}
+
+		extents = 0.7473 0.6044 1.8571,
+		mass = 400,
+		centerOfMassOffset = 0.0000 0.3022 0.0000,
+		physicsChassisShape = 0.7473 0.6044 1.8571,
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.2418 0.6264,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.2088 -0.9231,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		
+		
+	}
+}

@@ -1,0 +1,36 @@
+Simple Convert To Brita
+V1.3.1: Velxra's Bequest
+(41.78)(31may22)
+Additions:
+-Special request; added recipe to convert vanilla shotgun to a Winchester Model 1897.
+
+V1.3 (better late than never)
+(41.78)(27may22)
+Fixes:
+-Updated mod.info to correct required mod stuff.
+
+V1.2: (Should have released this weeeeeeeks ago. :P)
+(41.66)(27feb22)
+Additions:
+-Recipes to convert (most) vanilla weapon attachments. Exceptions being the Fiberglass Stock and Improved Choke, which have no direct companions in Brita.
+-Recipe to convert M14 clip into the proper Brita counterpart.
+
+Changes:
+-Vanilla M16 now converts to Colt M16. Credit to Robert Mölders for the suggestion.
+
+Simple Convert To Brita
+V1.2:
+(41.65)(28dec21)
+Fixes:
+-Fixed bug in magnum recipe, now should work as intended.
+
+Simple Convert To Brita
+V1.1:
+(41.65)(28dec21)
+Fixes:
+-Fixed bug in M32 Revolver recipe, now converts to Taurus 856.
+
+Simple Convert to Brita
+(41.65)
+(26dec21)
+Release.

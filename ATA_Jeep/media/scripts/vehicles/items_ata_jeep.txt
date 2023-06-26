@@ -1,0 +1,174 @@
+module Autotsar
+{
+    imports
+    {
+        Base
+    }
+
+    item AtTuningMagJeep /* Спавн */ 
+    {
+        Weight    =    0.1,
+        Type    =    Literature,
+        DisplayName    =    Autotsar Tuning Universe,
+        Icon    =    ATATuningMagUniverseIcon,
+        TeachedRecipes  =   Basic Tuning;ATAJeepRecipes,
+        ReplaceOnUse    =   AtTuningMagJeep,
+        Tooltip = Tooltip_item_AtTuningMagJeep,
+        StaticModel = Autotsar.ATATuningMagUniverse_Reading,
+        WorldStaticModel = Autotsar.ATATuningMagUniverse_Ground,
+    }
+
+    recipe Cut ATAJeepBumper1Item
+    {
+        ATAJeepBumper1Item=1,
+        BlowTorch=7,
+        keep WeldingMask,
+        Result:SmallSheetMetal=8,
+        Time:350.0,
+        Category:Welding,
+        SkillRequired:MetalWelding=2,
+        OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+        NeedToBeLearn:false,
+    }
+
+    model ATAJeepBumper1World
+    {
+        mesh = WorldItems/ATA_Bumper1,
+        texture = Vehicles/ATA_Jeep_items,
+        scale = 0.04,
+    }
+    item ATAJeepBumper1Item
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    = ATAJeepBumper1Item,
+        Icon    =    ATAJeepBumper1Item,
+        VehicleType =   1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAJeepBumper1World,
+    }
+    recipe Cut ATAJeepBumper3Item 
+    {
+       ATAJeepBumper3Item=1,
+       BlowTorch=7,
+       keep WeldingMask,
+       Result:MetalPipe=6,
+       Time:350.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+
+    model ATAJeepBumper2World
+    {
+        mesh = WorldItems/ATA_Bumper2,
+        texture = Vehicles/ATA_Jeep_items,
+        scale = 0.04,
+    }
+    item ATAJeepBumper2Item
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    = ATAJeepBumper2Item,
+        Icon    =    ATAJeepBumper2Item,
+        VehicleType =   1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAJeepBumper2World,
+    }
+    recipe Cut ATAJeepBumper2Item
+    {
+       ATAJeepBumper2Item=1,
+       BlowTorch=7,
+       keep WeldingMask,
+       Result:MetalPipe=4,
+       Time:350.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+
+    model ATAJeepBumper3World
+    {
+        mesh = WorldItems/ATA_Bumper3,
+        texture = Vehicles/ATA_Jeep_items,
+        scale = 0.04,
+    }
+    item ATAJeepBumper3Item /* Спавн */
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    = ATAJeepBumper3Item,
+        Icon    =    ATAJeepBumper3Item,
+        VehicleType =   1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 95,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAJeepBumper3World,
+    }
+    recipe Cut ATAJeepBumper3Item 
+    {
+       ATAJeepBumper3Item=1,
+       BlowTorch=7,
+       keep WeldingMask,
+       Result:MetalPipe=6,
+       Time:350.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+
+    model ATAJeepRoofTentWorld
+    {
+        mesh = WorldItems/ATA_PalatkaClosed,
+        texture = WorldItems/ATA_Common_palatka,
+        scale = 0.04,
+    }
+    item ATAJeepRoofTentItem /* Спавн */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    15.0,
+        Type    =    Normal,
+        DisplayName    = ATAJeepRoofTentItem,
+        Icon    =    ATARoofTentItem,
+        ChanceToSpawnDamaged = 25,
+        MaxCapacity = 30,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAJeepRoofTentWorld,
+    }
+
+    model ATAJeepSnorkelWorld
+    {
+        mesh = WorldItems/ATA_Airtube,
+        texture = WorldItems/ATA_Common_items,
+        scale = 0.04,
+    }
+    item ATAJeepSnorkelItem /* Спавн */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    2.0,
+        Type    =    Normal,
+        DisplayName    = ATAJeepSnorkelItem,
+        Icon    =    ATASnorkelItem,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAJeepSnorkelWorld,
+    }
+}

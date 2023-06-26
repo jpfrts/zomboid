@@ -1,0 +1,134 @@
+module Base
+{
+	vehicle WagonSpecialBloodyCrashedBurnt
+	{
+		model
+		{
+			file = Vehicles_Wagon2CrashedBurnt,
+			scale = 2.0000,
+			offset = 0.0000 0.1050 0.0000,
+		}
+
+		spawnOffsetY = 0.099999994,
+
+		skin
+		{
+			texture = Vehicles/vehicle_wagonbloodydarkcrashedshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_wagonbluebloodycrashedshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_wagonyellowbloodycrashedshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_wagonredbloodycrashedshell,
+		}
+
+		extents = 0.8500 0.6400 2.3500,
+		mass = 500,
+		centerOfMassOffset = 0.0000 0.0000 0.0000,
+		physicsChassisShape = 0.8500 0.6400 2.3300,
+
+		area TruckBed
+		{
+			xywh = 0.0000 -1.4300 0.8200 0.4700,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.6400 0.1200 0.4700 0.4700,
+		}
+
+		part DoorFrontRight
+		{
+			area = SeatFrontRight,
+			itemType = Base.FrontCarDoor,
+			category = door,
+
+			door
+			{
+			}
+
+			mechanicRequireKey = false,
+
+			lua
+			{
+				use = Vehicles.Use.Door,
+			}
+		}
+
+		part GloveBox
+		{
+			area = SeatFrontRight,
+			itemType = Base.GloveBox,
+			mechanicRequireKey = true,
+
+			container
+			{
+				test = Vehicles.ContainerAccess.WreckGloveBox,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.WreckGloveBox,
+			}
+		}
+
+		part TrunkDoor
+		{
+			category = bodywork,
+			area = TruckBed,
+
+			door
+			{
+			}
+
+			itemType = Base.TrunkDoor,
+			mechanicRequireKey = false,
+
+			lua
+			{
+				use = Vehicles.Use.TrunkDoor,
+			}
+		}
+
+		part TruckBed
+		{
+			area = TruckBed,
+			category = bodywork,
+			itemType = Base.NormalTrunk,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+
+			container
+			{
+				conditionAffectsCapacity = true,
+				test = Vehicles.ContainerAccess.TruckBed,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.2750 -1.2000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.3352 1.1758,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

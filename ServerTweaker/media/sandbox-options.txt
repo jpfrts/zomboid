@@ -1,0 +1,187 @@
+VERSION = 1,
+
+option ServerTweaker.SaveClientOptions {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = SaveClientOptions
+}
+
+option ServerTweaker.SaveAdminPower {
+  type        = boolean,
+  default     = false,
+  page        = ServerTweaker,
+  translation = SaveAdminPower
+}
+
+option ServerTweaker.AddClientCache {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = AddClientCache
+}
+
+option ServerTweaker.AllowAdminToolsForGM {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = AllowAdminToolsForGM
+}
+
+option ServerTweaker.DisallowSpawnItemsForObservers {
+  type        = boolean,
+  default     = false,
+  page        = ServerTweaker,
+  translation = DisallowSpawnItemsForObservers
+}
+
+option ServerTweaker.DisableAimOutline {
+  type        = boolean,
+  default     = false,
+  page        = ServerTweaker,
+  translation = DisableAimOutline
+}
+
+option ServerTweaker.DisableTradeWithPlayers {
+  type        = boolean,
+  default     = false,
+  page        = ServerTweaker,
+  translation = DisableTradeWithPlayers
+}
+
+option ServerTweaker.ProtectVehicleInSafehouse {
+  type        = boolean,
+  default     = false,
+  page        = ServerTweaker,
+  translation = ProtectVehicleInSafehouse
+}
+
+option ServerTweaker.ScreenBlackoutOnDeath {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = ScreenBlackoutOnDeath
+}
+
+option ServerTweaker.HighlightSafehouse {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = HighlightSafehouse
+}
+
+option ServerTweaker.TweakFirearmsSoundRadius {
+  type        = boolean,
+  default     = false,
+  page        = ServerTweaker,
+  translation = TweakFirearmsSoundRadius
+}
+
+option ServerTweaker.SetGeneralChatStreamAsDefault {
+  type        = boolean,
+  default     = false,
+  page        = ServerTweaker,
+  translation = SetGeneralChatStreamAsDefault
+}
+
+option ServerTweaker.DisplayCharacterCoordinates {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = DisplayCharacterCoordinates
+}
+
+option ServerTweaker.AddSatelliteViewToMap {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = AddSatelliteViewToMap
+}
+
+option ServerTweaker.DisplaySafehouseAreaSize {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = DisplaySafehouseAreaSize
+}
+
+option ServerTweaker.CustomSafezoneAdminTweaks {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = CustomSafezoneAdminTweaks
+}
+
+option ServerTweaker.TweakOverlayText {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = TweakOverlayText
+}
+
+option ServerTweaker.PinOverlayServerInfoText {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = PinOverlayServerInfoText
+}
+
+option ServerTweaker.HideServerOptionsFromPlayers {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = HideServerOptionsFromPlayers
+}
+
+option ServerTweaker.HideTicketsFromPlayers {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = HideTicketsFromPlayers
+}
+
+option ServerTweaker.AddSafehouseToSpawnLocations {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = AddSafehouseToSpawnLocations
+}
+
+option ServerTweaker.AdminsFreeAddToSafehouse {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = AdminsFreeAddToSafehouse
+}
+
+option ServerTweaker.TakeSafehouseLimitations {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = TakeSafehouseLimitations
+}
+
+option ServerTweaker.SafehouseAreaLimit {
+  type        = integer,
+  min         = 0,
+  max         = 10000,
+  default     = 0,
+  page        = ServerTweaker,
+  translation = SafehouseAreaLimit
+}
+
+option ServerTweaker.CheckSafehouseIntersections {
+  type        = boolean,
+  default     = true,
+  page        = ServerTweaker,
+  translation = CheckSafehouseIntersections
+}
+
+option ServerTweaker.SafehouseDeadZone {
+  type        = integer,
+  min         = 0,
+  max         = 100,
+  default     = 0,
+  page        = ServerTweaker,
+  translation = SafehouseDeadZone
+}

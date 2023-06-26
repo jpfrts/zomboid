@@ -1,0 +1,8 @@
+IG_UI_EN = {
+	IGUI_VehicleNameRidingMower = "Riding Mower"
+	IGUI_VehicleNameRacingMower = "Racing Mower (Does not mow)"
+	IGUI_VehicleNameTrailerMower = "Lawnmower Trailer"	
+	IGUI_VehicleNameRidingMower_Trailer = "Tugmaster 3000 Trailer"
+	IGUI_VehiclePartCatCutting = "Cutting Blade"
+	IGUI_VehiclePartMowerBlade = "Mower Blade"
+}

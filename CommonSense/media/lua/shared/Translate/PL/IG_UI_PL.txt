@@ -1,0 +1,9 @@
+IGUI_PL = {
+    IGUI_Pry_fail = "Nie uda³o siê. Mogê spróbowaæ jeszcze raz... ",
+    IGUI_Settings_Prying_Mechanic = "Mechanika £omu",
+    IGUI_Settings_Tooltip_Prying_Mechanic = "Prze³¹cza mo¿liwoœæ przez gracza podwa¿enia drzwi, okien, etc. za pomoc¹ £omu.",
+	IGUI_Settings_Part_Condition_Highlighter = "Zakreœlacz stanu czêœci",
+    IGUI_Settings_Tooltip_Part_Condition_Highlighter = "Wyœwietla ikonê akumulatora i silnika na desce rozdzielczej pojazdu w ró¿nych kolorach w zale¿noœci od ich stanu. "
+    IGUI_Settings_Color_Filter = "Filtr kolorów ",
+    IGUI_Settings_Tooltip_Colorblind_Mode = "Prze³¹cza przyjazne kolory dla osób dotkniêtych daltonizmem. ",
+}

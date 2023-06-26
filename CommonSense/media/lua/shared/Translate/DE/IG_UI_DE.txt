@@ -1,0 +1,9 @@
+IGUI_DE = {
+    IGUI_Pry_fail = "Es gibt nicht auf. Ich kann es noch einmal versuchen ...",
+    IGUI_Settings_Prying_Mechanic = "Brecheisenmechanik",
+    IGUI_Settings_Tooltip_Prying_Mechanic = "Schaltet um, ob Spieler Türen, Fenster usw. mit einem Brecheisen öffnen können. ",
+	IGUI_Settings_Part_Condition_Highlighter = "Textmarker für Teilezustand",
+    IGUI_Settings_Tooltip_Part_Condition_Highlighter = "Zeigt das Symbol für Batterie und Motor im Armaturenbrett des Fahrzeugs je nach Zustand in verschiedenen Farben an. "
+    IGUI_Settings_Color_Filter = "Farbfilter",
+    IGUI_Settings_Tooltip_Colorblind_Mode = "Schaltet freundliche Farben für Menschen mit Farbenblindheit um. ",
+}

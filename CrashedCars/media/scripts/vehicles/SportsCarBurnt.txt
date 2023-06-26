@@ -1,0 +1,134 @@
+module Base
+{
+	vehicle SportsCarBurnt
+	{
+		model
+		{
+			file = Vehicles_SportsCarCrashedBurnt,
+			scale = 1.8200,
+			offset = 0.0000 0.0330 0.0000,
+			= 0 -0.7 0,
+		}
+
+		spawnOffsetY = -0.20000005,
+
+		skin
+		{
+			texture = Vehicles/vehicle_sportscarcrashedshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_sportscargreencrashedshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_sportscarbluecrashedshell,
+		}
+
+		extents = 0.8132 0.5934 2.0989,
+		mass = 400,
+		centerOfMassoffset = 0 0.0 0,
+		physicsChassisShape = 0.8132 0.6044 2.0659,
+
+		area TruckBed
+		{
+			xywh = 0.0000 -1.2527 0.8132 0.4725,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.6374 -0.2363 0.4725 0.4725,
+		}
+
+		part DoorFrontRight
+		{
+			area = SeatFrontRight,
+			itemType = Base.FrontCarDoor,
+			category = door,
+
+			door
+			{
+			}
+
+			mechanicRequireKey = false,
+
+			lua
+			{
+				use = Vehicles.Use.Door,
+			}
+		}
+
+		part GloveBox
+		{
+			area = SeatFrontRight,
+			itemType = Base.GloveBox,
+			mechanicRequireKey = true,
+
+			container
+			{
+				test = Vehicles.ContainerAccess.WreckGloveBox,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.WreckGloveBox,
+			}
+		}
+
+		part TrunkDoor
+		{
+			category = bodywork,
+			area = TruckBed,
+
+			door
+			{
+			}
+
+			itemType = Base.TrunkDoor,
+			mechanicRequireKey = false,
+
+			lua
+			{
+				use = Vehicles.Use.TrunkDoor,
+			}
+		}
+
+		part TruckBed
+		{
+			area = TruckBed,
+			category = bodywork,
+			itemType = Base.SmallTrunk,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+
+			container
+			{
+				conditionAffectsCapacity = true,
+				test = Vehicles.ContainerAccess.TruckBed,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		centerOfMassOffset = 0.0000 0.0000 0.0000,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.1923 -1.0549,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.2198 1.0110,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

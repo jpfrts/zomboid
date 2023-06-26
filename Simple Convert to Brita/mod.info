@@ -1,0 +1,7 @@
+name=Simple Convert to Brita SRC
+poster=poster.png
+id=SimpleConvertToBritaSRC
+description=Just a simple mod to fix an annoying problem.
+description=
+description=(41.78)(27may23)
+require=Arsenal(26)GunFighter[MAIN MOD 2.0],Brita

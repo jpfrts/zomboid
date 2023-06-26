@@ -1,0 +1,131 @@
+module Base
+{
+
+   /***************************** Make into a weapon **********************************/
+       recipe Make Mower Blade Weapon
+    {
+		MowerBladeBlunt1,
+		[Recipe.GetItemTypes.RipClothing_Cotton],
+        SkillRequired:Maintenance=1,
+        Result:MowerBladeWeaponBlunt,
+        Sound:ClothesRipping,
+        Time:1500.0,
+        Category:Weapons,
+     }
+
+       recipe Remove Weapon Mod from Mower Blade.
+    {
+		MowerBladeWeaponBlunt,
+		keep [Recipe.GetItemTypes.Hammer],
+		SkillRequired:Maintenance=1,
+        Result:MowerBladeBlunt1,
+        Sound:ClothesRipping,
+        Time:1500.0,
+        Category:Weapons,
+	}
+
+       recipe Make Mower Blade Weapon (Sharpened)
+    {
+		MowerBladeSharp,
+		keep [Recipe.GetItemTypes.Hammer],		 
+        SkillRequired:Maintenance=1,
+        Result:MowerBladeWeaponSharp,
+        Sound:ClothesRipping,
+        Time:1500.0,
+        Category:Weapons,
+     }
+
+       recipe Remove Weapon Mod from Mower Blade (Sharpened).
+    {
+		MowerBladeWeaponSharp,
+		keep [Recipe.GetItemTypes.Hammer],
+		SkillRequired:Maintenance=1,
+        Result:MowerBladeSharp,
+        Sound:ClothesRipping,
+        Time:1500.0,
+        Category:Weapons,
+	}
+
+/**************************** Sharpen / blunt ******************************/
+    
+
+	/*======== Item ========*/
+
+		recipe Sharpen Mower Blade
+    {
+		MowerBladeBlunt1,	 
+		keep SharpedStone,
+        SkillRequired:Maintenance=1,
+        Result:MowerBladeSharp,
+        Sound:Dismantle,
+        Time:1500.0,
+        Category:Weapons,
+     }
+
+       recipe Blunt Mower Blade
+    {
+		MowerBladeSharp,
+		keep [Recipe.GetItemTypes.Hammer],
+        SkillRequired:Maintenance=1,	 
+        Result:MowerBladeBlunt1,
+        Sound:Hammering,
+        Time:1500.0,
+        Category:Weapons,
+	}
+	
+	/*======== Weapon ========*/
+	
+       recipe Sharpen Mower Blade Weapon
+    {
+		MowerBladeWeaponBlunt, 
+		keep SharpedStone,		
+        SkillRequired:Maintenance=1,
+        Result:MowerBladeWeaponSharp,
+        Sound:Dismantle,
+        Time:1500.0,
+        Category:Weapons,
+     }
+
+       recipe Blunt Mower Blade Weapon
+    {
+		MowerBladeWeaponSharp,
+		keep [Recipe.GetItemTypes.Hammer],		
+        SkillRequired:Maintenance=1,	   
+        Result:MowerBladeWeaponBlunt,
+        Sound:Hammering,
+        Time:1500.0,
+        Category:Weapons,
+	}
+
+/******************************* FIXING **********************************/
+
+
+	/*======== Item ========*/
+
+    fixing Fix Mower Blade (Sharpened)
+	{
+		Require 	: MowerBladeSharp,
+        Fixer 	: ScrapMetal=2,
+	}
+	
+    fixing Fix Mower Blade (Blunted)
+	{
+		Require 	: MowerBladeBlunt1,
+        Fixer 	: ScrapMetal=2,
+	}
+	
+	/*======== Weapon ========*/
+	
+    fixing Fix Mower Blade Weapon (Sharpened)
+	{
+		Require 	: MowerBladeWeaponSharp,
+        Fixer 	: ScrapMetal=2,
+	}
+	
+	
+    fixing Fix Mower Blade Weapon (Blunted)
+	{
+		Require 	: MowerBladeWeaponBlunt,
+        Fixer 	: ScrapMetal=2,
+	}
+}

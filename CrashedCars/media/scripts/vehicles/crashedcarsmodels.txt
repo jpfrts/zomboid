@@ -1,0 +1,130 @@
+module Base
+{
+	model Vehicles_PickupTruckCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_PickupTruckCrashedBurnt,
+		shader = vehicle,
+		static = TRUE,
+		scale = 1.00,
+	}
+	model Vehicles_CarNormal02CrashedBurnt
+	{
+		mesh = vehicles/Vehicles_CarNormal02CrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_Wagon2CrashedBurnt
+	{
+		mesh = vehicles/Vehicles_Wagon2CrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_CarModern02CrashedBurnt
+	{
+		mesh = vehicles/Vehicles_CarModern02CrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_Modern01Type2CrashedBurnt
+	{
+		mesh = vehicles/Vehicles_Modern01Type2CrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_SportsCarCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_SportsCarCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_CarSmallCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_CarSmallCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_SUVCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_SUVCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_WagonRedCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_WagonRedCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_ModernCarCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_ModernCarCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_CarNormalCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_CarNormalCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_SUV2CrashedBurnt
+	{
+		mesh = vehicles/Vehicles_SUV2CrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_CarSmall2FlippedCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_CarSmall2FlippedCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_CarTaxi1CrashedBurnt
+	{
+		mesh = vehicles/Vehicles_CarTaxi1CrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_CarTaxi2CrashedBurnt
+	{
+		mesh = vehicles/Vehicles_CarTaxi2CrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_PickupVanLightsCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_PickupVanLightsCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_AmbulanceCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_AmbulanceCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_RadioVanCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_RadioVanCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_PickupLightsCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_PickupLightsCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_LightsCarCrashedBurnt
+	{
+		mesh = vehicles/Vehicles_LightsCarCrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+	model Vehicles_CarSmalltype2CrashedBurnt
+	{
+		mesh = vehicles/Vehicles_CarSmalltype2CrashedBurnt,
+		shader = vehicle,
+		scale = 1.00,
+	}
+}

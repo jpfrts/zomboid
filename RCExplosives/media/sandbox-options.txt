@@ -1,0 +1,40 @@
+VERSION = 1,
+
+option RC.MyArtIsAnExplosion
+{
+	type = boolean,
+	default = true,
+	page = RC,
+	translation = RC_MyArtIsAnExplosion,
+}
+
+option RC.ExplosiveBaseDamage
+{
+	type = integer,
+	min = 1,
+	max = 1000,
+	default = 350,
+
+	page = RC,
+	translation = RC_ExplosiveBaseDamage,
+}
+
+option RC.Flyability
+{
+	type = boolean,
+	default = true,
+	page = RC,
+	translation = RC_Flyability,
+	valueTranslation = RC_Flyability,
+}
+
+
+option RC.SafeHouseSafeness
+{
+	type = enum,
+	numValues = 2,
+	default = 1,
+	page = RC,
+	translation = RC_SafeHouseSafeness,
+	valueTranslation = RC_SafeHouseSafeness,
+}

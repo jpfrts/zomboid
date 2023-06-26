@@ -1,0 +1,36 @@
+module Base
+{
+	vehicle ModernCarBurntClassic
+	{
+		model
+		{
+			file = Vehicles_ModernCarBurnt,
+			scale = 1.8200,
+			offset = 0.0000 0.2912 0.0000,
+		}
+
+		spawnOffsetY = 0.099999994,
+
+		skin
+		{
+			texture = Vehicles/vehicles_moderncar_burnt,
+		}
+
+		extents = 1.0000 0.5604 2.1868,
+		mass = 500,
+		centerOfMassOffset = 0.0000 0.2912 0.0000,
+		physicsChassisShape = 1.0000 0.5604 2.1868,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.2857 -1.1484,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.3077 1.1758,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

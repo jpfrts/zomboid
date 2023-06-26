@@ -1,0 +1,134 @@
+module Base
+{
+	vehicle PickupBurnt
+	{
+		model
+		{
+			file = Vehicles_PickupTruckCrashedBurnt,
+			scale = 1.8200,
+			offset = 0.0000 0.4066 -0.0604,
+		}
+
+		spawnOffsetY = 0.24999994,
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupblackcrashedshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupgreencrashedshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupbluecrashedshell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupredcrashedshell,
+		}
+
+		extents = 0.8022 0.7582 1.9341,
+		mass = 500,
+		centerOfMassOffset = 0.0000 0.3462 0.0000,
+		physicsChassisShape = 0.8022 0.7692 1.9560,
+
+		area TruckBed
+		{
+			xywh = 0.0000 -0.7308 1.4835 1.1648,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.6374 0.1209 0.4725 0.4725,
+		}
+
+		part DoorFrontRight
+		{
+			area = SeatFrontRight,
+			itemType = Base.FrontCarDoor,
+			category = door,
+
+			door
+			{
+			}
+
+			mechanicRequireKey = false,
+
+			lua
+			{
+				use = Vehicles.Use.Door,
+			}
+		}
+
+		part GloveBox
+		{
+			area = SeatFrontRight,
+			itemType = Base.GloveBox,
+			mechanicRequireKey = true,
+
+			container
+			{
+				test = Vehicles.ContainerAccess.WreckGloveBox,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.WreckGloveBox,
+			}
+		}
+
+		part TrunkDoor
+		{
+			category = bodywork,
+			area = TruckBed,
+
+			door
+			{
+			}
+
+			itemType = Base.TrunkDoor,
+			mechanicRequireKey = false,
+
+			lua
+			{
+				use = Vehicles.Use.TrunkDoor,
+			}
+		}
+
+		part TruckBedOpen
+		{
+			area = TruckBed,
+			category = bodywork,
+			itemType = Base.BigTrunk,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+
+			container
+			{
+				conditionAffectsCapacity = true,
+				test = Vehicles.ContainerAccess.TruckBedOpen,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.3352 -1.1648,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.3626 1.1374,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

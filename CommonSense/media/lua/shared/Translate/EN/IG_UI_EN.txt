@@ -1,0 +1,9 @@
+IGUI_EN = {
+    IGUI_Pry_fail = "It won't give in. I can try again... ",
+    IGUI_Settings_Prying_Mechanic = "Crowbar Mechanic ",
+    IGUI_Settings_Tooltip_Prying_Mechanic = "Toggles whether Players can pry open doors, windows, etc. using a Crowbar.",
+    IGUI_Settings_Part_Condition_Highlighter = "Parts Condition Highlighter",
+    IGUI_Settings_Tooltip_Part_Condition_Highlighter = "Displays the icon for Battery and Engine in vehicle dashboards in various colors depending on their condition. "
+    IGUI_Settings_Color_Filter = "Color Filter",
+    IGUI_Settings_Tooltip_Colorblind_Mode = "Toggles friendly colors for those affected by color blindness. ",
+}

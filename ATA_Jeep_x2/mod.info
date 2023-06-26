@@ -1,0 +1,7 @@
+name=Autotsar Tuning Atelier - Jaap Wrungel (Spawn Chance x2)
+poster=poster.png
+id=ATA_Jeep_x2
+versionMin=41.55
+require=ATA_Jeep,tsarslib
+description=Activate this mod if you want to find a little more Jaaps. Other jaap spawn mods should be disabled.
+url=
