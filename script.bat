@@ -4,7 +4,7 @@ chcp 65001
 cls
 
 set repo_directory=%USERPROFILE%\Zomboid\mods
-set repo_url=https://github.com/fidelmarques/zomboid.git
+set repo_url=https://github.com/jpfrts/zomboid.git
 set git_installer_path=%CD%/bin/git.exe
 
 echo:Atualizador de mods para Project Zomboid
@@ -47,7 +47,6 @@ if exist "%repo_directory%" (
 
         echo:Os arquivos já estão atualizados.
     )
-    del output.txt
 ) else (
     echo:Arquivos do servidor não encontrados.
     echo:Baixando...   
