@@ -1,0 +1,2258 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	item Cassette2PacCaliforniaLove(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette 2Pac - California Love (1995),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item Cassette311Amber(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 311 - Amber (2001),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteASilverMtZion13Angels(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette A Silver Mt. Zion - 13 Angels (2000),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteASilverMtZionForWanda(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette A Silver Mt. Zion - For Wanda (2000),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteAerosmithFlyAwayFromHere(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Aerosmith - Fly Away From Here (2001),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteAerosmithIDon'tWanttoMissaThing(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Aerosmith - I Don't Want to Miss a Thing (1998),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteAliceDeejayBetterOffAlone(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Alice Deejay - Better Off Alone (1999),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteAquaBarbieGirl(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Aqua - Barbie Girl (1997),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteAquaCartoonHeroes(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Aqua - Cartoon Heroes (2000),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteAquaMyOhMy(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Aqua - My Oh My (1997),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteBackstreetBoysEverybody(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Backstreet Boys - Everybody (1997),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteBackstreetBoysIWantItThatWay(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Backstreet Boys - I Want It That Way (1999),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteBahaMenWhoLettheDogsout(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Baha Men - Who Let the Dogs out (2000),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteBasementJaxxWhere'sYourHeadAt(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Basement Jaxx - Where's Your Head At (2001),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteBeastieBoysIntergalactic(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Beastie Boys - Intergalactic (1998),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteBjorkJoga(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Bjork - Joga (1997),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteBlondeRedheadFortheDamaged(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Blonde Redhead - For the Damaged (2000),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteBritneySpearsBabyOneMoreTime(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Britney Spears - Baby One More Time (2000),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteCakeTheDistance(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Cake - The Distance (1996),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteCaramellCaramelldansen(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Caramell - Caramelldansen (2001),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteCherBelieve(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Cher - Believe (1998),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteChristinaAguileraGenieInABottle(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Christina Aguilera - Genie In A Bottle (1999),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteChumbawambaTubthumping(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Chumbawamba - Tubthumping (1997),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteColdplayDon'tPanic(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Coldplay - Don't Panic (1999),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteCoolioGangstasParadise(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Coolio - Gangstas Paradise (1995),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteCoronaTheRhythmoftheNight(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Corona - The Rhythm of the Night (1995),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteDaftPunkAroundtheWorld(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Daft Punk - Around the World (2000),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteDaftPunkHarderBetterFasterStronger(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Daft Punk - Harder Better Faster Stronger (2001),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteDaftPunkOneMoreTime(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Daft Punk - One More Time (2000),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteDalerMehndiTunakTunakTun(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Daler Mehndi - Tunak Tunak Tun (1998),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteDarudeSandstorm(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Darude - Sandstorm (1999),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteDaveMcLoudMikado(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Dave McLoud - Mikado (1999),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteDaveRodgersBeatoftheRisingSun(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Dave Rodgers - Beat of the Rising Sun (1999),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteDaveRodgersDejaVu(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Dave Rodgers - Deja Vu (1999),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteDeanaCarterStrawberryWine(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Deana Carter - Strawberry Wine (1996),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteDeftonesChange(IntheHouseofFlies)(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Deftones - Change (In the House of Flies) (2000),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteDidoThankYou(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Dido - Thank You (1998),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteDirtyRottenImbecilesAbduction(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Dirty Rotten Imbeciles - Abduction (1998),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteDJCasperChaChaSlide(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette DJ Casper - Cha Cha Slide (2000),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteEroticHelpMeDrDick(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette E-rotic - Help Me Dr. Dick (1996),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteEiffel65Blue(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Eiffel 65 - Blue (1998),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteFatboySlimRightHereRightNow(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Fatboy Slim - Right Here Right Now (1999),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteFatboySlimWeaponofChoice(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Fatboy Slim - Weapon of Choice (2000),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteFooFightersEverlong(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Foo Fighters - Everlong (1997),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteFranzFerdinandTakeMeOut(2004)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Franz Ferdinand - Take Me Out (2004),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteFreezepopGetReady2Rokk(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Freezepop - Get Ready 2 Rokk (2000),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteFreezepopPlasticStars(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Freezepop - Plastic Stars (2000),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteFugeesFuGeeLa(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Fugees - Fu-Gee-La (1996),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteFugeesKillingMeSoftly(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Fugees - Killing Me Softly (1996),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteFugeesReadyorNot(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Fugees - Ready or Not (1996),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteGarbageIThinkI'mParanoid(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Garbage - I Think I'm Paranoid (1998),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteGeorgeStraitCheckYesOrNo(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette George Strait - Check Yes Or No (1995),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteGodspeedYou!BlackEmperorEastHastings(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Godspeed You! Black Emperor - East Hastings (1997),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteGodspeedYou!BlackEmperorMoya(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Godspeed You! Black Emperor - Moya (1999),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteGodspeedYou!BlackEmperorTheDeadFlagBlues(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Godspeed You! Black Emperor - The Dead Flag Blues (1997),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteGreenDayBasketCase(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Green Day - Basket Case (1994),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteHoleCelebritySkin(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Hole - Celebrity Skin (1998),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteIceCubePushinWeight(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Ice Cube - Pushin Weight (1998),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteIceCubeWeBeClubbin(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Ice Cube - We Be Clubbin (1998),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteIncubusDrive(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Incubus - Drive (1999),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteIsraelKamakawiwo'oleWhatAWonderfulWorld(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Israel Kamakawiwo'ole - What A Wonderful World (1994),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteJamiroquaiVirtualInsanity(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Jamiroquai - Virtual Insanity (1996),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteLaurynHillDooWop(ThatThing)(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Lauryn Hill - Doo Wop (That Thing) (1998),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteLeslieFishSeriousSteel(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Leslie Fish - Serious Steel (1996),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteLifehouseHangingByaMoment(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Lifehouse - Hanging By a Moment (2000),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteLinkinParkIntheEnd(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Linkin Park - In the End (2000),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteLouBegaMamboNo5(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Lou Bega - Mambo No. 5 (1999),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteMarcoPoloSpeedySpeedBoy(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Marco Polo - Speedy Speed Boy (1999),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteMassiveAttackAngel(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Massive Attack - Angel (1998),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteMassiveAttackInertiaCreeps(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Massive Attack - Inertia Creeps (1998),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteMassiveAttackRisingson(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Massive Attack - Risingson (1998),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteMassiveAttackTeardrop(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Massive Attack - Teardrop (1998),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteMaxCoveriRunninginthe90s(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Max Coveri - Running in the 90s (1999),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteMichaelJacksonTheyDontCareAboutUs(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Michael Jackson - They Dont Care About Us (1995),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteMichaelJacksonYouAreNotAlone(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Michael Jackson - You Are Not Alone (1995),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteMontellJordanThisIsHowWeDoIt(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Montell Jordan - This Is How We Do It (1995),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteMuseCitizenErased(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Muse - Citizen Erased (2001),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteMuseConScience(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Muse - Con-Science (1999),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteMuseFeelingGood(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Muse - Feeling Good (2001),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteMusePlugInBaby(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Muse - Plug In Baby (2001),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteMuseShine(Acoustic)(2002)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Muse - Shine (Acoustic) (2002),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteMuseShowbiz(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Muse - Showbiz (1999),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteMuseSpiralStatic(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Muse - Spiral Static (1999),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteMuseSunburn(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Muse - Sunburn (1999),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteNickCaveandtheBadSeedsRedRightHand(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Nick Cave and the Bad Seeds - Red Right Hand (1994),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteNineInchNailsHurt(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Nine Inch Nails - Hurt (1995),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteNSYNCTearin'UpMyHeart(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette NSYNC - Tearin' Up My Heart (1997),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteOasisWonderwall(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Oasis - Wonderwall (1995),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassettePanjabiMCMundiantoBachKe(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Panjabi MC - Mundian to Bach Ke (1998),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassettePortisheadGloryBox(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Portishead - Glory Box (1994),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassettePortisheadWanderingStar(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Portishead - Wandering Star (1994),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteRadioheadBulletProofIWishIWas(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Radiohead - Bullet Proof ... I Wish I Was (1995),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteRadioheadExitMusic(ForaFilm)(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Radiohead - Exit Music (For a Film) (1997),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteRadioheadFakePlasticTrees(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Radiohead - Fake Plastic Trees (1995),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteRadioheadKarmaPolice(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Radiohead - Karma Police (1997),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteRadioheadLetDown(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Radiohead - Let Down (1997),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteRadioheadNoSurprises(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Radiohead - No Surprises (1997),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteRadioheadParanoidAndroid(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Radiohead - Paranoid Android (1997),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteRadioheadPyramidSong(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Radiohead - Pyramid Song (2001),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteRadioheadStreetSpirit(FadeOut)(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Radiohead - Street Spirit (Fade Out) (1995),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteRadioheadSubterraneanHomesickAlien(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Radiohead - Subterranean Homesick Alien (1997),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteRadiohead[NiceDream](1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Radiohead - [Nice Dream] (1995),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteRageAgainsttheMachineBullsonParade(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Rage Against the Machine - Bulls on Parade (1996),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteRedHotChiliPeppersCalifornication(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Red Hot Chili Peppers - Californication (1999),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteRedHotChiliPeppersCan'tStop(2002)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Red Hot Chili Peppers - Can't Stop (2002),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteRedHotChiliPeppersOtherside(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Red Hot Chili Peppers - Otherside (1999),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteRedHotChiliPeppersScarTissue(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Red Hot Chili Peppers - Scar Tissue (1999),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteRednexCottonEyeJoe(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Rednex - Cotton Eye Joe (1995),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteRickyMartinLivin'LaVidaLoca(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Ricky Martin - Livin' La Vida Loca (1999),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteRickyMartinMaria(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Ricky Martin - Maria (1995),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteRobZombieDragula(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Rob Zombie - Dragula (1998),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteRobZombieSuperbeast(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Rob Zombie - Superbeast (1998),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteSarahMcLachlanAngel(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Sarah McLachlan - Angel (1998),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteScatmanJohnLetItGo(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Scatman John - Let It Go (1996),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteScatmanJohnScatman(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Scatman John - Scatman (1995),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteScatmanJohnScatman'sWorld(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Scatman John - Scatman's World (1995),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteSealKissfromaRose(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Seal - Kiss from a Rose (1994),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteSeatbeltTank!(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Seatbelt - Tank! (1998),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteSemisonicClosingTime(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Semisonic - Closing Time (1998),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteSilverJewsRandomRules(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Silver Jews - Random Rules (1998),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteSmashMouthAllStar(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Smash Mouth - All Star (1999),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteSmashMouthWalkin'OntheSun(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Smash Mouth - Walkin' On the Sun (1997),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteSoundgardenBlackHoleSun(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Soundgarden - Black Hole Sun (1994),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteSpiderbaitGlockenpop(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Spiderbait - Glockenpop (1999),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassettetATuMalchikGay(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette t.A.T.u. - Malchik Gay (2001),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteTakeThatBackForGood(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Take That - Back For Good (1995),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteTheAvalanchesFrontierPsychiatrist(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette The Avalanches - Frontier Psychiatrist (2000),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteTheButtholeSurfersPepper(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette The Butthole Surfers - Pepper (1996),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteTheCardigansLovefool(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette The Cardigans - Lovefool (1996),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteTheCranberriesZombie(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette The Cranberries - Zombie (1994),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteTheGooGooDollsIris(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette The Goo Goo Dolls - Iris (1998),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteTheNewRadicalsYouGetWhatYouGive(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette The New Radicals - You Get What You Give (1998),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteTheNotoriousBIGBigPoppa(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette The Notorious B.I.G. - Big Poppa (1994),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteTheOffspringTheKidsArentAlright(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette The Offspring - The Kids Arent Alright (1998),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteTheOutlawsGreenGrass&HighTides(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette The Outlaws - Green Grass & High Tides (2001),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteTheSmashingPumpkinsZero(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette The Smashing Pumpkins - Zero (1996),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteTheVerveBitterSweetSymphony(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette The Verve - Bitter Sweet Symphony (1997),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteTLCNoScrubs(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette TLC - No Scrubs (1999),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteToadiesPossumKingdom(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Toadies - Possum Kingdom (1994),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteToyBoxBestFriend(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Toy-Box - Best Friend (1999),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteTraceAdkinsEveryLightInTheHouse(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Trace Adkins - Every Light In The House (1996),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteTracyChapmanGiveMeOneReason(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Tracy Chapman - Give Me One Reason (1999),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteTravisTrittIt'saGreatDaytobeAlive(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Travis Tritt - It's a Great Day to be Alive (2000),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteVengaboysBoomBoomBoomBoom!!(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Vengaboys - Boom Boom Boom Boom!! (1998),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteVoltaireBRAINS!(2002)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Voltaire - BRAINS! (2002),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteWeezerSayItAin'tSo(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Weezer - Say It Ain't So (1994),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteRobDouganClubbedtoDeath(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Rob Dougan - Clubbed to Death (1997),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteSystemofaDownChopSuey!(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette System of a Down - Chop Suey! (2001),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteThirdEyeBlindSemiCharmedLife(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Third Eye Blind - Semi-Charmed Life (1997),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteLazloBaneSuperman(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Lazlo Bane - Superman (2001),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteMarkMorrisonReturnoftheMack(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Mark Morrison - Return of the Mack (1996),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteNSYNCByeByeBye(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette NSYNC - Bye Bye Bye (2000),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteSantanaSmooth(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Santana - Smooth (1999),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteTravisSing(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Travis - Sing (2001),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette'WeirdAl'YankovicAmishParadise(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 'Weird Al' Yankovic - Amish Paradise (1996),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteStoneTemplePilotsBigEmpty(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Stone Temple Pilots - Big Empty (1994),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteTheSmashingPumpkins1979(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette The Smashing Pumpkins - 1979 (1995),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteTheSmashingPumpkinsTonightTonight(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette The Smashing Pumpkins - Tonight Tonight (1995),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassettetATuAllTheThingsSheSaid(2002)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette t.A.T.u - All The Things She Said (2002),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteTheKnifeHeartbeats(2003)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette The Knife - Heartbeats (2003),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteOutkastHeyYa!(2003)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Outkast - Hey Ya! (2003),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteShaggyBombastic(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Shaggy - Bombastic (1995),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteTheSmashingPumpkinsBulletWithButterflyWings(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette The Smashing Pumpkins - Bullet With Butterfly Wings (1995),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteTheNotoriousBIGHypnotize(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette The Notorious B.I.G. - Hypnotize (1997),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteTheNotoriousBIGJuicy(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette The Notorious B.I.G. - Juicy (1994),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item Cassette2PacChanges(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette 2Pac - Changes (1998),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item Cassette2PacDoForLove(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette 2Pac - Do For Love (1997),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteAphexTwinAlbertoBalsalm(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Aphex Twin - Alberto Balsalm (1995),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteAphexTwinCometoDaddy(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Aphex Twin - Come to Daddy (1997),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteAphexTwinIZUS(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Aphex Twin - IZ-US (1997),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteBlurSong2(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Blur - Song 2 (1997),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteBoaDuvet(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Boa - Duvet (2001),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteBoaTwilight(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Boa - Twilight (2001),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteBoardsofCanadaEverythingYouDoisaBalloon(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Boards of Canada - Everything You Do is a Balloon (1996),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteMFDoomDoomsday(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette MF Doom - Doomsday (1999),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteDusterInsideOut(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Duster - Inside Out (1998),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteMassiveAttackGroupFour(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Massive Attack - Group Four (1998),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassettePortisheadMysterons(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Portishead - Mysterons (1994),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassettePortisheadNumb(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Portishead - Numb (1994),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteTMRevolutionHotLimit(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette T.M. Revolution - Hot Limit (1999),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteBeastieBoysSureShot(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Beastie Boys - Sure Shot (1994),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteBlackstreetNoDiggity(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Blackstreet - No Diggity (1996),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteDaftPunkDaFunk(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Daft Punk - Da Funk (1995),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteDeftonesBeQuietandDrive(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Deftones - Be Quiet and Drive (1997),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteFrouFrouLetGo(2002)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Frou Frou - Let Go (2002),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteGinuwinePony(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Ginuwine - Pony (1996),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteHarveyDangerFlagpoleSitta(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Harvey Danger - Flagpole Sitta (1998),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteHoleDollParts(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Hole - Doll Parts (1994),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteNatalieImbrugliaTorn(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Natalie Imbruglia - Torn (1997),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteOasisLiveForever(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Oasis - Live Forever (1994),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassettePortisheadSourTimes(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Portishead - Sour Times (1994),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassettePulpCommonPeople(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Pulp - Common People (1995),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteSpiceGirlsWannabe(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Spice Girls - Wannabe (1996),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteTheCrystalMethodNameoftheGame(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette The Crystal Method - Name of the Game (2001),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteTheCureBurn(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette The Cure - Burn (1994),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteTheNotoriousBIGMoMoneyMoProblems(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette The Notorious B.I.G. - Mo Money Mo Problems (1997),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteTheProdigyBreathe(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette The Prodigy - Breathe (1996),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteTheProdigyFirestarter(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette The Prodigy - Firestarter (1996),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteTheProdigyPoison(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette The Prodigy - Poison (1994),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteTLCWaterfalls(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette TLC - Waterfalls (1994),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteDeltron3030MemoryLoss(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Deltron 3030 - Memory Loss (2000),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteGarbageSpecial(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Garbage - Special (1998),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteGetoBoysStill(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Geto Boys - Still (1996),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteMFDoomRappSnitchKnishes(2004)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette MF Doom - Rapp Snitch Knishes (2004),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteNoDoubtSpiderwebs(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette No Doubt - Spiderwebs (1995),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteRadioheadAWolfattheDoor(2003)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Radiohead - A Wolf at the Door (2003),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteRadioheadTheTrickster(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Radiohead - The Trickster (1995),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteRedHotChiliPeppersAroundtheWorld(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Red Hot Chili Peppers - Around the World (1999),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteWuTangClanCREAM(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Wu-Tang Clan - C.R.E.A.M. (1994),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteWuTangClanTriumph(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Wu-Tang Clan - Triumph (1997),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+	item CassetteDusterStarsWillFall(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Duster - Stars Will Fall (1997),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteMichaelJacksonBloodontheDanceFloor(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Michael Jackson - Blood on the Dance Floor (1997),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteMogwaiTakeMeSomewhereNice(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Mogwai - Take Me Somewhere Nice (2001),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteMogwaiYes!IAmALongWayFromHome(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Mogwai - Yes! I Am A Long Way From Home (1997),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassettePinkFloydDogs(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Pink Floyd - Dogs (1997),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteAmberThisIsYourNight(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Amber - This Is Your Night (1996),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteBeckInferno(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Beck - Inferno (1996),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteBeckTheNewPollution(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Beck - The New Pollution (1996),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteBeckWhereIt'sAt(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Beck - Where It's At (1996),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteDeltron3030Mastermind(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Deltron 3030 - Mastermind (2000),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteEve6InsideOut(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Eve 6 - Inside Out (1998),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteGreenDayBrainStew(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Green Day - Brain Stew (1995),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteIvyEdgeoftheOcean(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Ivy - Edge of the Ocean (2000),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteJunkoYagamiDejaVu(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Junko Yagami - Deja Vu (1996),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteMaiYamaneTheRealFolkBlues(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Mai Yamane - The Real Folk Blues (1998),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteMFDOOMHey!(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette MF DOOM - Hey! (1999),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteMobyMachete(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Moby - Machete (1999),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteMobyNaturalBlues(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Moby - Natural Blues (1999),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteMobyPorcelain(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Moby - Porcelain (1999),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteMobyWhyDoesMyHeartFeelSoBad(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Moby - Why Does My Heart Feel So Bad (1999),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteNoDoubtJustaGirl(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette No Doubt - Just a Girl (1995),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteReelBigFishSellOut(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Reel Big Fish - Sell Out (1996),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteScatmanJohnEverybodyJam(1996)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Scatman John - Everybody Jam (1996),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteBlurBoysandGirls(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Blur - Boys and Girls (1994),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteWhiteTownYourWoman(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette White Town - Your Woman (1997),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteBlondieMaria(1999)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Blondie - Maria (1999),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteDMXXGon'GiveItToYa(2003)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette DMX - X Gon' Give It To Ya (2003),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteDrowningPoolBodies(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Drowning Pool - Bodies (2001),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteEverclearSantaMonica(1995)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Everclear - Santa Monica (1995),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteFuelShimmer(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Fuel - Shimmer (1998),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteGangStarrMassAppeal(1994)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Gang Starr - Mass Appeal (1994),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteModjoLady(HearMeTonight)(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Modjo - Lady (Hear Me Tonight) (2000),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteNatashaBedingfieldUnwritten(2004)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Natasha Bedingfield - Unwritten (2004),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteNineDaysAbsolutely(StoryofaGirl)(2000)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Nine Days - Absolutely (Story of a Girl) (2000),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteSteveConteRain(1998)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Steve Conte - Rain (1998),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteSublimeSanteria(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Sublime - Santeria (1997),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteSystemofaDownAerials(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette System of a Down - Aerials (2001),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteSystemofaDownToxicity(2001)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette System of a Down - Toxicity (2001),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteTheWhiteStripesSevenNationArmy(2003)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette The White Stripes - Seven Nation Army (2003),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteWeenOceanMan(1997)
+	{
+		Type			=	Normal,
+		Weight			=	0.05,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Ween - Ocean Man (1997),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+}
