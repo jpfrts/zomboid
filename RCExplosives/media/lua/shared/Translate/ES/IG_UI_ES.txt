@@ -1,4 +1,0 @@
-IGUI_ES = {
-	IGUI_ItemCat_RCExplosive = "RCExplosivo",
-
-}

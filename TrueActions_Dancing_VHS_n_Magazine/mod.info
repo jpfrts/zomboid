@@ -1,6 +1,0 @@
-name=TrueActions_Dancing_VHS_n_MAG
-description=Return the spawning of all magazines for mod "True Actions Dancing VHS".
-id=TrueActionsDancingVHS_MAG
-require=TrueActionsDancingVHS
-poster=poster.png
-versionMin=41.55

@@ -1,6 +1,0 @@
-name=TrueActions_Dancing_VHS_1.0
-description=This mod adds VHS releases of "True Dancing" and disables the spawning of all magazines.
-id=TrueActionsDancingVHS
-require=TrueActionsDancing
-poster=poster.png
-versionMin=41.55
