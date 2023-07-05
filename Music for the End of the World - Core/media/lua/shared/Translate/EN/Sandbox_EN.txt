@@ -1,0 +1,66 @@
+Sandbox_EN = {
+  Sandbox_MFTEOTWC = "Music for the End",
+
+  Sandbox_MFTEOTWC_cassetteSpawn = "Cassettes Spawn?",
+  Sandbox_MFTEOTWC_cassetteSpawn_tooltip = "Decides whether or not cassettes will spawn. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_vinylSpawn = "Vinyls Spawn?",
+  Sandbox_MFTEOTWC_vinylSpawn_tooltip = "Decides whether or not vinyls will spawn. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_maxCassettes = "Max Cassettes Per Container",
+  Sandbox_MFTEOTWC_maxCassettes_tooltip = "The maximum number of cassettes that may spawn in a container is 1 + this number. Only applies to MFTEOTW tracks. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_maxVinyls = "Max Vinyls Per Container",
+  Sandbox_MFTEOTWC_maxVinyls_tooltip = "The maximum number of vinyls that may spawn in a container is 1 + this number. Only applies to MFTEOTW tracks. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_cassetteChance = "Cassette Chance Multiplier",
+  Sandbox_MFTEOTWC_cassetteChance_tooltip = "Directly multiplies the chance that cassettes will spawn in a container. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_vinylChance = "Vinyl Spawn Multiplier",
+  Sandbox_MFTEOTWC_vinylChance_tooltip = "Directly multiplies the chance that vinyls will spawn in a container. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_cacheSpawn = "Hoards Spawn?",
+  Sandbox_MFTEOTWC_cacheSpawn_tooltip = "Hoards are boxes that can be opened to get 50 random cassettes or vinyls. They spawn very rarely in a select few containers. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_cacheQuantity = "Hoard Quantity",
+  Sandbox_MFTEOTWC_cacheQuantity_tooltip = "Hoards will give this many of their respective music item, without duplicates. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_cacheSpawnChance = "Hoard Spawn Chance",
+  Sandbox_MFTEOTWC_cacheSpawnChance_tooltip = "This value directly multiplies the spawn rate of Hoards. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_boxSpawn = "Boxes Spawn?",
+  Sandbox_MFTEOTWC_boxSpawn_tooltip = "Boxes can be opened to get 25 random cassettes or vinyls. They spawn very rarely in a select few containers. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_boxQuantity = "Box Quantity",
+  Sandbox_MFTEOTWC_boxQuantity_tooltip = "Boxes will give this many of their respective music item, without duplicates. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_boxSpawnChance = "Box Spawn Chance",
+  Sandbox_MFTEOTWC_boxSpawnChance_tooltip = "This value directly multiplies the spawn rate of Boxes. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_stackSpawn = "Stacks Spawn?",
+  Sandbox_MFTEOTWC_stackSpawn_tooltip = "Stacks are items that can be opened to get 10 random cassettes or vinyls. They can spawn in place of any music item at the same chance as any other music item. Requires you to reload the world to take effect. Recommended that you turn this off if you aren't using the Main and Extended packs as Stacks may become too common."
+
+  Sandbox_MFTEOTWC_stackQuantity = "Stack Quantity",
+  Sandbox_MFTEOTWC_stackQuantity_tooltip = "Stacks will give this many of their respective music item, without duplicates. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_zedMusic = "Zed Drops?",
+  Sandbox_MFTEOTWC_zedMusic_tooltip = "Decides whether or not cassettes will spawn on Zombies. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_zedMusicChance = "Zed Drop Chance",
+  Sandbox_MFTEOTWC_zedMusicChance_tooltip = "Directly multiplies the chance that zombies will drop cassettes upon death. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_cassetteWeight = "Cassette Weight",
+  Sandbox_MFTEOTWC_cassetteWeight_tooltip = "This value sets the weight of all cassettes from any MFTEOTW pack as well as the base True Music cassettes. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_vinylWeight = "Vinyl Weight",
+  Sandbox_MFTEOTWC_vinylWeight_tooltip = "This value sets the weight of all vinyls from any MFTEOTW pack as well as the base True Music vinyls. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_batteryUse = "Boombox Battery Use",
+  Sandbox_MFTEOTWC_batteryUse_tooltip = "This value directly multiplies the rate at which Boomboxes consume battery power. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWC_boomboxWeight = "Boombox Weight",
+  Sandbox_MFTEOTWC_boomboxWeight_tooltip = "This value sets the weight of Boomboxes. Requires you to reload the world to take effect."
+
+  Sandbox_MFTEOTWSH_easterEgg = "Easter Egg?",
+  Sandbox_MFTEOTWSH_easterEgg_tooltip = "Dictates whether or not any of the ten extremely rare 'Easter Egg' tracks may spawn. These tracks drop from zombies at an extremely low rate, are from a 2008 horror game, and are not joke tracks. Comes with the Silent Hill pack."
+}
