@@ -1,0 +1,52 @@
+module Base
+{
+	recipe Open Hoard of Cassettes
+    {
+        CassetteCache,
+
+        Result:TCBoombox,
+        OnCreate:Recipe.OnCreate.ItemCacheCassette,
+        Time:5.0,
+    }
+	recipe Open Hoard of Cassettes
+    {
+        VinylCache,
+
+        Result:TCVinylplayer,
+        OnCreate:Recipe.OnCreate.ItemCacheVinyl,
+        Time:5.0,
+    }
+	recipe Open Sealed Box of Cassettes
+    {
+        CassetteBox,
+
+        Result:TCBoombox,
+        OnCreate:Recipe.OnCreate.ItemBoxCassette,
+        Time:5.0,
+    }
+	recipe Open Sealed Box of Vinyls
+    {
+        VinylBox,
+
+        Result:TCVinylplayer,
+        OnCreate:Recipe.OnCreate.ItemBoxVinyl,
+        Time:5.0,
+    }
+	recipe Unbind Cassettes
+    {
+        CassetteStack,
+
+        Result:Twine,
+        OnCreate:Recipe.OnCreate.ItemStackCassette,
+        Time:5.0,
+    }
+
+	recipe Unbind Vinyls
+    {
+        VinylStack,
+
+        Result:Twine,
+        OnCreate:Recipe.OnCreate.ItemStackVinyl,
+        Time:5.0,
+    }
+}

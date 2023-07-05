@@ -1,0 +1,5 @@
+name=Music for the End of the World: Core [REQUIRED]
+poster=preview.png
+id=MusicfortheEndOP
+require=truemusic
+description=This enables broad customization of item behaviors from all Music for the End of the World packs as well as some items from the original True Music mod. It is REQUIRED for any Music for the End of the World pack to function.
