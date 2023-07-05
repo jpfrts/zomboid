@@ -1,4 +1,0 @@
-name=Spawn items and clothing by occupation
-poster=poster.png
-id=ClothingBasedOnOccupation
-description=Adds the ability to choose clothing based on occupation as well as spawning with items based on traits and your current occupation.
