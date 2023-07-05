@@ -1,0 +1,191 @@
+VERSION = 1,
+
+option MFTEOTWC.cassetteSpawn
+{
+  type = boolean,
+  default = true,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_cassetteSpawn,
+}
+
+option MFTEOTWC.vinylSpawn
+{
+  type = boolean,
+  default = true,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_vinylSpawn,
+}
+
+option MFTEOTWC.maxCassettes
+{
+  type = integer,
+  min = 0,
+  max = 10,
+  default = 2,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_maxCassettes,
+}
+
+option MFTEOTWC.maxVinyls
+{
+  type = integer,
+  min = 0,
+  max = 10,
+  default = 2,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_maxVinyls,
+}
+
+option MFTEOTWC.cassetteChance
+{
+  type = double,
+  min = 0,
+  max = 20,
+  default = 1,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_cassetteChance,
+}
+
+option MFTEOTWC.vinylChance
+{
+  type = double,
+  min = 0,
+  max = 20,
+  default = 1,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_vinylChance,
+}
+
+
+option MFTEOTWC.cacheSpawn
+{
+  type = boolean,
+  default = true,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_cacheSpawn,
+}
+
+option MFTEOTWC.cacheQuantity
+{
+  type = integer,
+  min = 5,
+  max = 100,
+  default = 50,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_cacheQuantity,
+}
+
+option MFTEOTWC.cacheSpawnChance
+{
+  type = double,
+  min = 0,
+  max = 50,
+  default = 1,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_cacheSpawnChance,
+}
+
+option MFTEOTWC.boxSpawn
+{
+  type = boolean,
+  default = true,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_boxSpawn,
+}
+
+option MFTEOTWC.boxQuantity
+{
+  type = integer,
+  min = 5,
+  max = 50,
+  default = 25,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_boxQuantity,
+}
+
+option MFTEOTWC.boxSpawnChance
+{
+  type = double,
+  min = 0,
+  max = 50,
+  default = 1,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_boxSpawnChance,
+}
+
+option MFTEOTWC.stackSpawn
+{
+  type = boolean,
+  default = true,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_stackSpawn,
+}
+
+
+option MFTEOTWC.stackQuantity
+{
+  type = integer,
+  min = 5,
+  max = 25,
+  default = 10,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_stackQuantity,
+}
+
+option MFTEOTWC.zedMusic
+{
+  type = boolean,
+  default = false,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_zedMusic,
+}
+
+option MFTEOTWC.zedMusicChance
+{
+  type = double,
+  min = 0,
+  max = 100,
+  default = 1,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_zedMusicChance,
+}
+
+option MFTEOTWC.cassetteWeight
+{
+  type = double,
+  min = 0,
+  max = 2,
+  default = 0.05,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_cassetteWeight,
+}
+
+option MFTEOTWC.vinylWeight
+{
+  type = double,
+  min = 0,
+  max = 2,
+  default = 0.1,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_vinylWeight,
+}
+
+option MFTEOTWC.batteryUse
+{
+  type = double,
+  min = 0,
+  max = 100,
+  default = 1,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_batteryUse,
+}
+
+option MFTEOTWC.boomboxWeight
+{
+  type = double,
+  min = 0,
+  max = 10,
+  default = 2.4,
+  page = MFTEOTWC,
+  translation = MFTEOTWC_boomboxWeight,
+}
